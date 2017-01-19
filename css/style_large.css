@@ -1,0 +1,559 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+body {
+  font-family: "Roboto Condensed";
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headlogo {
+  background: url("../images/Header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 70px;
+}
+
+/*navigation bar */
+
+nav {
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(18,98,127) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(18,98,127) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(18,98,127) 100%);
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1em;
+}
+
+a {
+
+  display: table-cell;
+  height: auto;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #022b43;
+  display: inline-block;
+}
+
+/*end navigation bar*/
+
+.banner {
+  background: url("../images/Banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: white;
+  padding: 0px;
+  width: 100%;
+  height: 475px;
+}
+
+/*form stuff*/
+.form {
+  background: url("../images/Form.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 310px;
+  width: 403px;
+  position: relative;
+  left: 20em;
+  top: 8em;
+  margin-top: 1.5%;
+}
+
+form.form-field {
+  margin: 0 auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+select {
+  border: 2px solid rgb(17, 96, 124);
+  background-color: white;
+  margin: 0 auto;
+  padding: 2px;
+  width: 308px;
+  height: 34px;
+  background: url("../images/arrow.png") no-repeat right #ddd;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+/*end of form*/
+
+
+
+.steps{
+  margin-top: 5em;
+}
+
+.steps h2{
+  font-size: 48px;
+  font-family: "Roboto Condensed";
+  color: rgb(2, 43, 67);
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.steps ul {
+  width: 100%;
+}
+
+.steps li{
+    margin-bottom: 11%;
+    margin-left: 3%;
+}
+
+
+
+.button1 {
+  background-color: #b11c1c;
+  width: 324px;
+  height: 51px;
+  margin-bottom: 2%;
+  margin-top: -7%;
+  line-height: 2.1;
+}
+
+
+.button2 {
+  background-color: #b11c1c;
+  width: 374px;
+  height: 56px;
+  margin-bottom: 2%;
+  margin-top: -7%;
+  line-height: 2.1;
+}
+
+a.button-text1 {
+  font-size: 24px;
+  text-indent: 3.5em;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-transform: scale(1, 1.1);
+  -webkit-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+}
+
+a.button-text2 {
+  font-size: 24px;
+  text-indent: 1.5em;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-transform: scale(1, 1.1);
+  -webkit-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+}
+
+
+
+.schools {
+  background: url("../images/Schools.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+}
+
+footer {
+  background: url("../images/Footer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 25%;
+  height: 100px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+ /* media queries */
+
+ @media screen and (max-width: 960px) {
+   /*navigation bar */
+ nav {
+   padding: 15px;
+   display: block;
+   text-decoration: none;
+   list-style: none;
+ }
+
+ li a{
+   padding-left: 10px;
+   padding-right:  10px;
+ }
+
+ .banner {
+   background: url("../images/Banner.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   color: white;
+   padding: 0px;
+   width: 100%;
+   height: 380px;
+ }
+
+.form {
+  background: url("../images/Form.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 310px;
+  width: 303px;
+  position: relative;
+  left: 11em;
+  top: 5em;
+}
+
+form.form-field {
+  margin: 0 auto;
+  padding-top: 4em;
+  margin-bottom: 3em;
+}
+
+select {
+  width: 188px;
+  height: 24px;
+  background: url("../images/arrow.png") no-repeat right #ddd;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.button1 {
+  background-color: #b11c1c;
+  width: 154px;
+  height: 35px;
+  color: white;
+  margin-bottom: 1%;
+  margin-top: -15%;
+  line-height: 2.1;
+}
+
+a.button-text1 {
+  font-size: 1em;
+  text-indent: 1.2em;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-transform: scale(1, 1.1);
+  -webkit-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+}
+a.button-text2 {
+  font-size: 1.5em;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-transform: scale(1, 1.1);
+  -webkit-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+}
+.schools {
+  background: url("../images/Schools.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 120px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+
+  .headlogo {
+   background: url("../images/Logo.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 96%;
+   height: 62px;
+   margin-bottom: 10px
+
+ }
+
+ .form {
+   background: url("../images/Form.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 210px;
+   width: 303px;
+   position: relative;
+   left: 10em;
+   top: 4em;
+
+ }
+
+ form.form-field {
+   margin: 0 auto;
+   padding-top: 4em;
+   margin-bottom: 1em;
+ }
+
+ select {
+   width: 188px;
+   height: 24px;
+   background: url("../images/arrow.png") no-repeat right #ddd;
+   border: 1px solid #ccc;
+   font-size: 15px;
+   font-family: "Arial";
+   color: rgb(0, 0, 0);
+   line-height: 1.2;
+   text-align: left;
+ }
+
+ .button1 {
+   background-color: #b11c1c;
+   width: 154px;
+   height: 35px;
+   color: white;
+   margin-bottom: 1%;
+   margin-top: -7%;
+   line-height: 2.1;
+ }
+
+ a.button-text1 {
+   font-size: 1em;
+   font-family: "Roboto Condensed";
+   color: rgb(254, 255, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+   -moz-transform: scale(1, 1.1);
+   -webkit-transform: scale(1, 1.1);
+   -ms-transform: scale(1, 1.1);
+ }
+
+ a.button-text2 {
+   font-size: 1.5em;
+   font-family: "Roboto Condensed";
+   color: rgb(254, 255, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+   -moz-transform: scale(1, 1.1);
+   -webkit-transform: scale(1, 1.1);
+   -ms-transform: scale(1, 1.1);
+ }
+
+ .schools {
+   background: url("../images/Schools.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   width: 100%;
+   height: 90px;
+ }
+
+   footer {
+   width: 50%;
+   height: 100px;
+   margin-top: 30px;
+ }
+
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+   .headlogo {
+    background: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
+  header .wrapper {
+    padding: 0;
+    width: 100%;
+  }
+   /*navigation bar */
+   header {
+     padding-bottom: 0;
+   }
+
+   header nav li {
+     float: none;
+     width: 100%;
+     margin: 0;
+   }
+
+   header nav {
+     background: #555;
+   }
+
+   header nav li a {
+     text-transform: uppercase;
+     display: block;
+     text-align: center;
+     padding: 10px;
+     color: #999;
+     border-top: 1px solid #4f4f4f;
+   }
+
+   #burger-nav {
+
+     width: 100%;
+     height: 100px;
+     background: url("../images/menu.png") no-repeat 98% center;
+
+     cursor: pointer;
+   }
+
+   header nav ul {
+     height: 0;
+     overflow: hidden;
+   }
+
+   header nav ul.open {
+     height: auto;
+   }
+
+
+
+/*end navigation bar*/
+
+
+
+
+/*form stuff*/
+.form {
+  background: url("../images/Form.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 270px;
+  position: relative;
+  left: .5em;
+  top: 8em;
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+}
+
+form.form-field {
+  margin: 0 auto;
+  margin-bottom: 1.3em;
+}
+
+select {
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 18px;
+  background: url("../images/arrow.png") no-repeat right #ddd;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+/*end of form*/
+section.steps {
+  margin-top: 0;
+}
+
+.steps{
+  margin-top: 111em;
+  padding-top: 10px;
+}
+
+
+.button2 {
+  background-color: #b11c1c;
+  width: 280px;
+  height: 56px;
+  margin-bottom: 2%;
+  margin-top: -7%;
+  line-height: 3;
+}
+
+a.button-text2 {
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -moz-transform: scale(1, 1.1);
+  -webkit-transform: scale(1, 1.1);
+  -ms-transform: scale(1, 1.1);
+}
+
+footer {
+width: 90%;
+height: 120px;
+margin-top: 30px;
+}
+
+.bottom-nav {
+  display: none;
+}
+}
